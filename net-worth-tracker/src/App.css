@@ -1,0 +1,11 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+}
+
+.NetWorthForm {
+  background-color: aliceblue;
+}

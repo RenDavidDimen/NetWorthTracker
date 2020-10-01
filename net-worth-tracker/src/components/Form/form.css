@@ -1,0 +1,37 @@
+#net-worth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80%;
+}
+
+/* Inputs */
+.input-pair {
+  display: flex;
+
+  width: 50%;
+  margin: 10px;
+}
+
+.form-label {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-input {
+  margin-left: 10px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+#submit-button {
+  width: 100px;
+}
+
+#form-error {
+  margin: 0px;
+  color: red;
+}
